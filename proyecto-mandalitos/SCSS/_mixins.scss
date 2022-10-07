@@ -1,0 +1,39 @@
+@mixin mdia-query($medida) {
+    main {
+        @if $medida == tablet {
+            @media only screen and (max-width:768px) {
+                .imgTamaño {
+                    width: 750px;
+                    height: 550px;
+                }
+            }
+        }
+        @else if $medida == mobile {
+            @media only screen and (max-width: 576px) {
+                .imgTamaño {
+                    width: 550px;
+                    height: 450px;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+
+    footer {
+            @if $medida == mobile {
+                @media only screen and (max-width:576px) {
+                    #footer {
+                        width: 400px;
+                        height: 200px;
+                        #medPag {
+                            width: 100px;
+                            height: 40px;
+                        }
+                    }
+                }
+
+               
+                
+            }
+    }
+}

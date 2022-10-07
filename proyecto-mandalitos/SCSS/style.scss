@@ -1,0 +1,15 @@
+@import "./mixins";
+@import "./variables";
+@import "./body";
+@import "./header";
+@import "./main";
+@import "./footer";
+@font-face {
+    font-family: "mandalitos";
+    src: url(../font/fontastique.ttf);
+}
+
+
+
+@include mdia-query (tablet);
+@include mdia-query (mobile);

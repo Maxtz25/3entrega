@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+
+header {
+  height: 40vh;
+  width: 100vw;
+  background-color: #f3b7b9;
+}
+header #nav {
+  margin-left: 150px;
+}
+
+main {
+  height: 150vh;
+  width: 100vw;
+  background-color: #d2b3d4;
+}
+main fieldset {
+  text-align: center;
+  margin-top: 100px;
+}
+main label {
+  font-family: "mandalitos";
+  color: yellowgreen;
+}
+main legend {
+  font-family: "mandalitos";
+  font-size: 45px;
+  text-decoration: underline;
+  color: lightcoral;
+}
+main p {
+  font-family: "mandalitos";
+  font-size: xx-large;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 90px;
+  padding: 35px;
+}
+main h1 {
+  text-align: center;
+  font-family: "mandalitos";
+  font-size: 50px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+main #transition {
+  width: 500px;
+  height: 200px;
+  background-color: transparent;
+}
+main #transition:hover {
+  padding: 20px;
+  -webkit-transform: rotateX(360deg);
+          transform: rotateX(360deg);
+}
+main #textcomp {
+  font-family: "mandalitos";
+}
+main #textcomp2 {
+  font-family: "mandalitos";
+}
+main .imgTamaño {
+  width: 100vw;
+  height: 150vh;
+}
+main .caja {
+  display: block;
+  width: 30%;
+  float: right;
+  padding: 5em;
+}
+main .caja1 {
+  display: block;
+  width: 30%;
+  float: right;
+  padding: 5em;
+}
+
+footer {
+  height: 40vh;
+  width: 100vw;
+  background-color: #cee2b1;
+}
+footer #wapp {
+  width: 32px;
+  height: 32px;
+}
+footer #medPag {
+  width: 290px;
+  height: 120px;
+}
+footer div div div div ul {
+  list-style: none;
+  margin-top: 20px;
+}
+footer div div div div ul a {
+  text-decoration: none;
+  color: fuchsia;
+}
+footer .fs-3 {
+  font-family: "mandalitos";
+}
+
+@font-face {
+  font-family: "mandalitos";
+  src: url(../font/fontastique.ttf);
+}
+@media only screen and (max-width: 768px) {
+  main .imgTamaño {
+    width: 750px;
+    height: 550px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  main .imgTamaño {
+    width: 550px;
+    height: 450px;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer #footer {
+    width: 400px;
+    height: 200px;
+  }
+  footer #footer #medPag {
+    width: 100px;
+    height: 40px;
+  }
+}
